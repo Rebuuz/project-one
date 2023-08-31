@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.navbar {
+    color: #5F7161;
+    font-size: 1.2rem;
+    font-family: "M PLUS code Latin", sans-serif;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.navbar-link {
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+.container-name {
+    font-family: "Barlow", sans-serif;
+    color: #5F7161;
+}
+
+.name-r {
+    text-align: center;
+    font-size: 25rem;
+    margin-top: 0rem;
+}
+
+.name-l {
+    text-align: center;
+    font-size: 25rem;
+    margin: -20rem;
+    padding-left: 15rem;
+}
+
+.first-name {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 20rem;
+    margin-top: 2.9rem
+}
+
+.last-name {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 32rem;
+    margin-top: 7.4rem;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    padding-left: 0rem;
+    margin: -10.5rem 5rem;
+    position: absolute;
+}
