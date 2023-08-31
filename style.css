@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
 .navbar {
     color: #5F7161;
     font-size: 1.2rem;
@@ -60,6 +65,7 @@ a:hover {
 
 .image-container {
     text-align: center;
+
 }
 
 .image {
@@ -67,6 +73,18 @@ a:hover {
     height: 150px;
     width: 150px;
     padding-left: 0rem;
-    margin: -10.5rem 5rem;
+    margin: -10.2rem 5rem;
     position: absolute;
+}
+
+.footer {
+    color:#5F7161;
+    padding: 1rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: "M Plus Code Latin", sans-serif;
+    min-height: 50px;
 }
